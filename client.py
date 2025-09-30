@@ -9,7 +9,7 @@ def send_file(file_path):
     file = Path(file_path)
     
     if not file.exists():
-        print("File not found.")
+        print("Arquivo não encontrado.")
         return
     
     file_size = file.stat().st_size
